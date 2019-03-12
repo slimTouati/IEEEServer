@@ -1,0 +1,26 @@
+{
+  "name": "tcs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "medSlimTouati",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bson": "^4.0.1",
+    "express": "^4.16.4",
+    "extend": "^3.0.2",
+    "mongodb": "^3.1.13",
+    "mongodb-autoincrement": "^1.0.1",
+    "mongodb-core": "^3.1.11",
+    "mongoose": "^5.4.10",
+    "mongoose-auto-increment": "^5.0.1",
+    "monk": "^6.0.6",
+    "multer": "^1.4.1",
+    "nodemon": "^1.18.9"
+  }
+}
